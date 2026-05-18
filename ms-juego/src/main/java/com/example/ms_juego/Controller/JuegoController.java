@@ -41,7 +41,7 @@ public class JuegoController {
     // ACTUALIZAR
     @PutMapping("/{id}")
     public Juego actualizar(@PathVariable Long id, @RequestBody Juego jue){
-        return serv.actualizarJuego(id, jue);
+        return serv.actualizarJuego(jue);
     }
 
     // ELIMINAR
