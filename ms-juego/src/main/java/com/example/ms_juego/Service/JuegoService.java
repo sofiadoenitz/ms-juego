@@ -10,9 +10,9 @@ import org.springframework.stereotype.Service;
 import com.example.ms_juego.Client.CatalogoFeignClient;
 import com.example.ms_juego.Client.DescuentoFeignClient;
 import com.example.ms_juego.Client.ModFeignClient;
-import com.example.ms_juego.DTO.CatalogoDTO;
-import com.example.ms_juego.DTO.DescuentoDTO;
-import com.example.ms_juego.DTO.ModDTO;
+import com.example.ms_juego.Model.DTO.CatalogoDTO;
+import com.example.ms_juego.Model.DTO.DescuentoDTO;
+import com.example.ms_juego.Model.DTO.ModDTO;
 import com.example.ms_juego.Model.Juego;
 import com.example.ms_juego.Repository.JuegoRepository;
 

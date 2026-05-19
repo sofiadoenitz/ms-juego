@@ -1,4 +1,4 @@
-package com.example.ms_juego.DTO;
+package com.example.ms_juego.Model.DTO;
 
 import lombok.Data;
 
